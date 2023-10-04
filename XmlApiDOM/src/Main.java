@@ -67,7 +67,7 @@ public class Main {
                                 double salesValuesDouble = Double.parseDouble(salesValue);
                                 double valoresSalesConPercentage = ((salesValuesDouble) * percentage);
                                 double valoresFinalesYaAgregados = valoresSalesConPercentage +salesValuesDouble;
-                                System.out.println("Sales de Home " + (i + 1) + " con porcentaje agregado: " + valoresFinalesYaAgregados);
+                                System.out.println("Sales de " + depa + " " + (i + 1) + " con porcentaje agregado: " + valoresFinalesYaAgregados);
                                 //Actualizar la información del departamento señalado en new_sales.xml
                                 Element elementoNuevasVentas = (Element) nuevoNodo;
                                 NodeList listaNodoNuevasVentas = elementoNuevasVentas.getElementsByTagName("sales");
